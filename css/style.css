@@ -23,9 +23,39 @@ body{
     text-decoration: none;
     font-size: 15px;
 }
-/* Hover serve para mudar cor quando o mouse passa por cima */
+/* Hover serve para mudar cor ou aumentar tamanho quando o mouse passa por cima */
 .link:hover{
     color: rgb(75, 2, 75);
     text-decoration: none;
     font-size: 17px;
+}
+.space{
+    margin-right: 10px;
+}
+.btn-wpp{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    background-color: #02e676;
+    color: #fff;
+    border-color: #02e676;
+    text-decoration: none;
+}
+.btn-git{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+    text-decoration: none;
+}
+.btn-lkdin{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    background-color: #0e76a8;
+    color: #fff;
+    border-color: #0e76a8;
+    text-decoration: none;
 }
