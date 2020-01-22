@@ -1,27 +1,37 @@
-html{
+html, body{
+    height: 100%;
     height: 100%;
 }
-body{
+header{
+    position: 100%;
+    width: 100%;
     background: url('../images/oceano.jpg');
     /* Faz a imagem caber na tela */
     background-size: cover;
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover; */
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
     /* Imagem de fundo fica fixa e somente letras e imagens de frente se movem "paralax" */
-    background-attachment: fixed, scroll;
-  background-repeat: no-repeat, repeat-y;;
+    background-repeat: no-repeat;
+    display: block;
 }
 .profile{
     /* mudar a borda */
     border-radius: 100%;
-    width: 15%;
+    width: 25%;
     /* tamanho da borda e cor */
     border: 2px solid white;
 }
+@media (min-width: 991.98px){
+    .profile{
+        /* mudar a borda */
+        border-radius: 100%;
+        width: 20%;
+        /* tamanho da borda e cor */
+        border: 2px solid white;
+    }
+}
+
 .txt{
     font-size: 20px;
 }
@@ -37,34 +47,10 @@ body{
     font-size: 17px;
 }
 .space{
-    padding-bottom: 55px;
+    padding-bottom: 25px;
 }
-.btn-wpp{
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    border-radius: .25rem;
-    background-color: #02e676;
-    color: #fff;
-    border-color: #02e676;
-    text-decoration: none;
-}
-.btn-git{
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    border-radius: .25rem;
-    background-color: #000;
-    color: #fff;
-    border-color: #000;
-    text-decoration: none;
-}
-.btn-lkdin{
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    border-radius: .25rem;
-    background-color: #0e76a8;
-    color: #fff;
-    border-color: #0e76a8;
-    text-decoration: none;
+.space-top{
+    padding-top: 25px;
 }
 i{
     padding: 5px;
