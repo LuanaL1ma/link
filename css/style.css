@@ -52,6 +52,6 @@ header{
 .space-top{
     padding-top: 25px;
 }
-i{
-    padding: 5px;
+.space-margin{
+    margin-bottom: 5px;
 }
