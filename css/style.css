@@ -11,6 +11,9 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
+    /* Imagem de fundo fica fixa e somente letras e imagens de frente se movem "paralax" */
+    background-attachment: fixed, scroll;
+  background-repeat: no-repeat, repeat-y;;
 }
 .profile{
     /* mudar a borda */
