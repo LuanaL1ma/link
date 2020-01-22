@@ -1,5 +1,5 @@
 body{
-    background: url('../images/oceano.jpg') no-repeat center center fixed;
+    background: url('../images/oceano.jpg') no-repeat fixed;
     /* Faz a imagem caber na tela */
     background-size: cover;
     -webkit-background-size: cover;
