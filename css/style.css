@@ -9,7 +9,7 @@ header{
     /* Faz a imagem caber na tela */
     background-size: cover;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     height: 100%;
     /* Imagem de fundo fica fixa e somente letras e imagens de frente se movem "paralax" */
     background-repeat: no-repeat;
